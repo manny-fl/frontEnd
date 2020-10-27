@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    background:#222;
+    font-weight: 300;
+}
+img{
+    height: 100px;
+    width:100px;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+header{
+    background:#55d6aa;
+}
+
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+
+}
+.logo{
+    float:left;
+}
+nav{
+    float:right;
+}
